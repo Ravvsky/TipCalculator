@@ -1,0 +1,18 @@
+.result{
+    display: flex;
+    flex-direction: column;
+    background: hsl(183, 100%, 15%);
+    margin: 20px;
+    padding: 20px;
+    width: 300px;
+    color:azure;
+    justify-content: space-around;
+
+}
+
+@media (max-width: 800px){
+    .result{
+        width: 90%;
+  
+    }
+  }

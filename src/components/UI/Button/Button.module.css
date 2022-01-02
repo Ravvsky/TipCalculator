@@ -1,0 +1,71 @@
+.button {
+  border: none;
+  font-size: 24px;
+  border-radius: 5px;
+  color: hsl(0, 0%, 100%);
+  background-color: hsl(183, 100%, 15%);
+  width: 120px;
+  padding: 10px 0;
+  cursor: pointer;
+  font-family: 'Space Mono', monospace;
+
+}
+
+.button:hover {
+  background-color: hsl(185, 41%, 84%);
+}
+.button:active {
+  background-color: hsl(185, 41%, 84%);
+}
+
+.custombtn:focus{
+    background-color: red !important;
+}
+
+.button input {
+  width: 100%;
+  background: hsl(183, 100%, 15%);
+  border: none;
+  margin: 0;
+  font-size: 24px;
+  border-radius: 5px;
+  color: hsl(0, 0%, 100%);
+  text-align: center;
+  font-family: 'Space Mono', monospace;
+
+}
+
+.button input:hover,
+.button input:focus {
+  outline: none;
+  border: none;
+  background: hsl(185, 41%, 84%);
+}
+
+.button:hover > input {
+  background: hsl(185, 41%, 84%);
+}
+
+.button:hover > input:focus {
+    background: hsl(185, 41%, 84%);
+  }
+
+.pressed {
+  background: hsl(172, 67%, 45%);
+}
+
+
+
+.button.pressed input {
+  background: hsl(172, 67%, 45%);
+}
+
+.reset {
+    width: 100%;
+  
+  background: #26c2ad}
+
+  .reset:hover{
+    background: hsl(185, 41%, 84%)
+  }
+
